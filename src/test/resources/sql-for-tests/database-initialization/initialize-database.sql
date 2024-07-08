@@ -1,0 +1,3 @@
+insert into tb_users (id_user , username, password) values (2, 'TBUser', '$2a$10$zgpIXqgC1aeQ5qpcrWge..aiVKfN6ly7r3EJxm/XeB5s2KG88ZYDa');
+insert into tb_network (id, name, created_at, updated_at, expired_at, active, user_id) values ('a8c6b4e7-9f9b-4b5a-a9c6-9f9b4b5a9c6b', 'TBNetwork', '2024-07-06 02:46:59.192552 +00:00', '2024-07-06 02:46:59.192552 +00:00', null, true, 2);
+insert into tb_unit (id, name, created_at, updated_at, active, network_id) values ('44379ad3-cafd-4dde-b8be-550ac11734b7', 'TBUnit', '2024-07-06 02:46:59.192552 +00:00', '2024-07-06 02:46:59.192552 +00:00', true, 'a8c6b4e7-9f9b-4b5a-a9c6-9f9b4b5a9c6b');
